@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Renewable Source Prediction</title>
+</head>
+<body>
+    <h1>Welcome to Renewable Source Prediction</h1>
+    <p>Which source do you need to predict?</p>
+    <form action="/predict" method="post">
+        <input type="radio" name="energy_type" value="solar" id="solar">
+        <label for="solar">Solar Energy</label><br>
+        <input type="radio" name="energy_type" value="wind" id="wind">
+        <label for="wind">Wind Energy</label><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

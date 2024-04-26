@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Prediction</title>
+</head>
+<body>
+    <h1>Solar Energy Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="cloud_coverage">Cloud Coverage:</label>
+        <input type="text" name="cloud_coverage" id="cloud_coverage"><br>
+        <label for="visibility">Visibility:</label>
+        <input type="text" name="visibility" id="visibility"><br>
+        <label for="temperature">Temperature:</label>
+        <input type="text" name="temperature" id="temperature"><br>
+        <label for="dew_point">Dew Point:</label>
+        <input type="text" name="dew_point" id="dew_point"><br>
+        <label for="relative_humidity">Relative Humidity:</label>
+        <input type="text" name="relative_humidity" id="relative_humidity"><br>
+        <label for="wind_speed">Wind Speed:</label>
+        <input type="text" name="wind_speed" id="wind_speed"><br>
+        <label for="station_pressure">Station Pressure:</label>
+        <input type="text" name="station_pressure" id="station_pressure"><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
