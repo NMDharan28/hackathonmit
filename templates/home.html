@@ -8,12 +8,11 @@
 <body>
     <h1>Welcome to Renewable Source Prediction</h1>
     <p>Which source do you need to predict?</p>
-    <form action="/predict" method="post">
-        <input type="radio" name="energy_type" value="solar" id="solar">
-        <label for="solar">Solar Energy</label><br>
-        <input type="radio" name="energy_type" value="wind" id="wind">
-        <label for="wind">Wind Energy</label><br>
-        <input type="submit" value="Predict">
-    </form>
+    <a href="/solar">
+        <input type="button" value="solar" />
+     </a>
+     <a href="/wind">
+        <input type="button" value="wind" />
+     </a>
 </body>
 </html>
